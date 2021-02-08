@@ -14,11 +14,7 @@ struct ContentView: View {
     var body: some View {
         HStack {
             if !self.viewModel.movies.isEmpty{
-                List{
-                    ForEach(self.viewModel.movies) { movie in
-                        CellOverlay(movie: movie)
-                    }
-                }
+                PageView(pages: self.viewModel.movies.map { FeatureCard(movie: $0) })
             }
         }.onAppear{
             self.viewModel.viewDidLoad()
@@ -27,16 +23,27 @@ struct ContentView: View {
     
 }
 
-struct CellOverlay: View {
+
+struct PageView<Page: View>: View {
     
+    let pages: [Page]
+    
+    var body: some View {
+        PageViewController(pages: pages)
+    }
+    
+}
+
+struct FeatureCard: View {
+
     var movie: Result
     @ObservedObject var viewModel = ContentViewModel()
-    
+
     init(movie: Result) {
         self.movie = movie
         self.viewModel.getImageFromUrl(movie.artworkUrl100 ?? "")
     }
-    
+
     var gradient: LinearGradient {
         LinearGradient(
             gradient: Gradient(
@@ -44,13 +51,13 @@ struct CellOverlay: View {
             startPoint: .bottom,
             endPoint: .top)
     }
-    
+
     var body: some View {
             ZStack(alignment: .bottomLeading) {
                 Image(uiImage: ((self.viewModel.data.isEmpty) ? UIImage(named: "placeholder") : UIImage(data: self.viewModel.data))!)
                     .resizable()
-                    .aspectRatio(contentMode: .fill)
-                
+                    .aspectRatio(3 / 5, contentMode: .fit)
+
                 Rectangle().fill(gradient)
                 VStack(alignment: .leading) {
                     Text(movie.name ?? "")
