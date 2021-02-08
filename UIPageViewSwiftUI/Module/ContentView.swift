@@ -27,7 +27,6 @@ struct ContentView: View {
 struct PageView<Page: View>: View {
     
     let pages: [Page]
-    
     var body: some View {
         PageViewController(pages: pages)
     }
