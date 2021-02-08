@@ -6,7 +6,7 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
-		<key>017F5A3A-DBD7-41B0-901B-81A4DE4AF117</key>
+		<key>244489D9-F3ED-496A-9A90-B283AA08239A</key>
 		<dict>
 			<key>className</key>
 			<string>IDEActivityLogMajorGroupSection</string>
@@ -15,7 +15,7 @@
 			<key>domainType</key>
 			<string>Xcode.IDEActivityLogDomainType.target.product-type.application</string>
 			<key>fileName</key>
-			<string>017F5A3A-DBD7-41B0-901B-81A4DE4AF117.xcactivitylog</string>
+			<string>244489D9-F3ED-496A-9A90-B283AA08239A.xcactivitylog</string>
 			<key>hasPrimaryLog</key>
 			<true/>
 			<key>primaryObservable</key>
@@ -26,13 +26,13 @@
 			<key>signature</key>
 			<string>UIPageViewSwiftUI-fysisyarfhlsnafilkjodnskosck</string>
 			<key>timeStartedRecording</key>
-			<real>634491904.80089605</real>
+			<real>634494692.00215602</real>
 			<key>timeStoppedRecording</key>
-			<real>634491906.12936604</real>
+			<real>634494693.11964297</real>
 			<key>title</key>
 			<string>Build target UIPageViewSwiftUI</string>
 			<key>uniqueIdentifier</key>
-			<string>017F5A3A-DBD7-41B0-901B-81A4DE4AF117</string>
+			<string>244489D9-F3ED-496A-9A90-B283AA08239A</string>
 		</dict>
 	</dict>
 	<key>preserveOldLogs</key>

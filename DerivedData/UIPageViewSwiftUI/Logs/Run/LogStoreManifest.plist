@@ -6,6 +6,108 @@
 	<integer>10</integer>
 	<key>logs</key>
 	<dict>
+		<key>0BF5F48D-2925-4FD2-B5DF-54AA5D0E660B</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0BF5F48D-2925-4FD2-B5DF-54AA5D0E660B.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UIPageViewSwiftUI project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UIPageViewSwiftUI</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run UIPageViewSwiftUI</string>
+			<key>timeStartedRecording</key>
+			<real>634494637.20387602</real>
+			<key>timeStoppedRecording</key>
+			<real>634494650.22828197</real>
+			<key>title</key>
+			<string>Run UIPageViewSwiftUI</string>
+			<key>uniqueIdentifier</key>
+			<string>0BF5F48D-2925-4FD2-B5DF-54AA5D0E660B</string>
+		</dict>
+		<key>0DF83C13-5B8F-486B-B149-0514586B7859</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>0DF83C13-5B8F-486B-B149-0514586B7859.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UIPageViewSwiftUI project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UIPageViewSwiftUI</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run UIPageViewSwiftUI</string>
+			<key>timeStartedRecording</key>
+			<real>634494563.76684499</real>
+			<key>timeStoppedRecording</key>
+			<real>634494635.64221203</real>
+			<key>title</key>
+			<string>Run UIPageViewSwiftUI</string>
+			<key>uniqueIdentifier</key>
+			<string>0DF83C13-5B8F-486B-B149-0514586B7859</string>
+		</dict>
+		<key>117A2B3A-F6B7-48EF-AFC3-558AA9E6DC95</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>117A2B3A-F6B7-48EF-AFC3-558AA9E6DC95.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UIPageViewSwiftUI project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UIPageViewSwiftUI</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run UIPageViewSwiftUI</string>
+			<key>timeStartedRecording</key>
+			<real>634494137.43405604</real>
+			<key>timeStoppedRecording</key>
+			<real>634494563.69866598</real>
+			<key>title</key>
+			<string>Run UIPageViewSwiftUI</string>
+			<key>uniqueIdentifier</key>
+			<string>117A2B3A-F6B7-48EF-AFC3-558AA9E6DC95</string>
+		</dict>
 		<key>13446376-290F-4FB9-8B81-23BB8200F75C</key>
 		<dict>
 			<key>className</key>
@@ -141,6 +243,176 @@
 			<string>Run UIPageViewSwiftUI</string>
 			<key>uniqueIdentifier</key>
 			<string>9A49E453-D661-42AA-8926-658687361358</string>
+		</dict>
+		<key>D140A0C8-F907-4173-8C1D-C13D7EF699BD</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>D140A0C8-F907-4173-8C1D-C13D7EF699BD.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UIPageViewSwiftUI project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UIPageViewSwiftUI</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run UIPageViewSwiftUI</string>
+			<key>timeStartedRecording</key>
+			<real>634494670.12347806</real>
+			<key>timeStoppedRecording</key>
+			<real>634494691.94741595</real>
+			<key>title</key>
+			<string>Run UIPageViewSwiftUI</string>
+			<key>uniqueIdentifier</key>
+			<string>D140A0C8-F907-4173-8C1D-C13D7EF699BD</string>
+		</dict>
+		<key>DB7989FC-4A41-474A-8FD6-795F4DB2C2B5</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>DB7989FC-4A41-474A-8FD6-795F4DB2C2B5.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UIPageViewSwiftUI project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UIPageViewSwiftUI</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run UIPageViewSwiftUI</string>
+			<key>timeStartedRecording</key>
+			<real>634493999.54932797</real>
+			<key>timeStoppedRecording</key>
+			<real>634494065.800282</real>
+			<key>title</key>
+			<string>Run UIPageViewSwiftUI</string>
+			<key>uniqueIdentifier</key>
+			<string>DB7989FC-4A41-474A-8FD6-795F4DB2C2B5</string>
+		</dict>
+		<key>E0970138-57B3-4E78-8AE1-D68C66A70DDA</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>E0970138-57B3-4E78-8AE1-D68C66A70DDA.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UIPageViewSwiftUI project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UIPageViewSwiftUI</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run UIPageViewSwiftUI</string>
+			<key>timeStartedRecording</key>
+			<real>634494651.43454099</real>
+			<key>timeStoppedRecording</key>
+			<real>634494668.89412606</real>
+			<key>title</key>
+			<string>Run UIPageViewSwiftUI</string>
+			<key>uniqueIdentifier</key>
+			<string>E0970138-57B3-4E78-8AE1-D68C66A70DDA</string>
+		</dict>
+		<key>EB5C2C82-93DB-4FC1-8B4E-EA0E33336D2A</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>EB5C2C82-93DB-4FC1-8B4E-EA0E33336D2A.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UIPageViewSwiftUI project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UIPageViewSwiftUI</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run UIPageViewSwiftUI</string>
+			<key>timeStartedRecording</key>
+			<real>634491908.41250098</real>
+			<key>timeStoppedRecording</key>
+			<real>634492054.03850198</real>
+			<key>title</key>
+			<string>Run UIPageViewSwiftUI</string>
+			<key>uniqueIdentifier</key>
+			<string>EB5C2C82-93DB-4FC1-8B4E-EA0E33336D2A</string>
+		</dict>
+		<key>EF3F9660-DEB3-48D9-B68A-1D475397B4B4</key>
+		<dict>
+			<key>className</key>
+			<string>DBGConsoleLog</string>
+			<key>documentTypeString</key>
+			<string>com.apple.dt.IDE.DebuggerLogContentType</string>
+			<key>domainType</key>
+			<string>Xcode.IDEActivityLogDomainType.DebugLog</string>
+			<key>fileName</key>
+			<string>EF3F9660-DEB3-48D9-B68A-1D475397B4B4.xcactivitylog</string>
+			<key>hasPrimaryLog</key>
+			<true/>
+			<key>primaryObservable</key>
+			<dict>
+				<key>highLevelStatus</key>
+				<string>S</string>
+			</dict>
+			<key>schemeIdentifier-containerName</key>
+			<string>UIPageViewSwiftUI project</string>
+			<key>schemeIdentifier-schemeName</key>
+			<string>UIPageViewSwiftUI</string>
+			<key>schemeIdentifier-sharedScheme</key>
+			<integer>1</integer>
+			<key>signature</key>
+			<string>Run UIPageViewSwiftUI</string>
+			<key>timeStartedRecording</key>
+			<real>634494126.26823699</real>
+			<key>timeStoppedRecording</key>
+			<real>634494136.27404904</real>
+			<key>title</key>
+			<string>Run UIPageViewSwiftUI</string>
+			<key>uniqueIdentifier</key>
+			<string>EF3F9660-DEB3-48D9-B68A-1D475397B4B4</string>
 		</dict>
 	</dict>
 </dict>

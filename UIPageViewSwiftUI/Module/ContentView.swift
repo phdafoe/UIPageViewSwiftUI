@@ -14,7 +14,11 @@ struct ContentView: View {
     var body: some View {
         HStack {
             if !self.viewModel.movies.isEmpty{
-                Text(self.viewModel.movies[0].artistName!)
+                List{
+                    ForEach(self.viewModel.movies) { movie in
+                        CellOverlay(movie: movie)
+                    }
+                }
             }
         }.onAppear{
             self.viewModel.viewDidLoad()
@@ -23,8 +27,39 @@ struct ContentView: View {
     
 }
 
-struct ContentView_Previews: PreviewProvider {
-    static var previews: some View {
-        ContentView().previewDevice("iPhone 12 mini")
+struct CellOverlay: View {
+    
+    var movie: Result
+    @ObservedObject var viewModel = ContentViewModel()
+    
+    init(movie: Result) {
+        self.movie = movie
+        self.viewModel.getImageFromUrl(movie.artworkUrl100 ?? "")
     }
+    
+    var gradient: LinearGradient {
+        LinearGradient(
+            gradient: Gradient(
+                colors: [Color.black.opacity(0.8), Color.black.opacity(0)]),
+            startPoint: .bottom,
+            endPoint: .top)
+    }
+    
+    var body: some View {
+            ZStack(alignment: .bottomLeading) {
+                Image(uiImage: ((self.viewModel.data.isEmpty) ? UIImage(named: "placeholder") : UIImage(data: self.viewModel.data))!)
+                    .resizable()
+                    .aspectRatio(contentMode: .fill)
+                
+                Rectangle().fill(gradient)
+                VStack(alignment: .leading) {
+                    Text(movie.name ?? "")
+                        .font(.title)
+                        .bold()
+                    Text(movie.kind ?? "")
+                }
+                .padding()
+            }
+            .foregroundColor(.white)
+        }
 }
