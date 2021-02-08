@@ -6,6 +6,7 @@
 //
 
 import Foundation
+import Combine
 
 protocol GenericProviderProtocol: class {
     func getMoviesProvider(success: @escaping(Movies) -> (), failure: @escaping(APIError) -> ())
@@ -13,6 +14,8 @@ protocol GenericProviderProtocol: class {
 
 
 class GenericProvider: BaseProvider, GenericProviderProtocol {
+    
+    var cancellables = Set<AnyCancellable>()
     
     internal func getMoviesProvider(success: @escaping(Movies) -> (), failure: @escaping(APIError) -> ()) {
         requestGeneric(Movies.self, endpoint: CONSTANTS.BASE_URL.BASE_URL_MOVIE)
@@ -25,6 +28,6 @@ class GenericProvider: BaseProvider, GenericProviderProtocol {
                 }
             }) { (data) in
                 success(data)
-            }.cancel()
+            }.store(in: &cancellables)
     }
 }

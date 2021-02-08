@@ -13,9 +13,11 @@ struct ContentView: View {
     
     var body: some View {
         HStack {
-            Text("AQUI ANDRES")
+            if !self.viewModel.movies.isEmpty{
+                Text(self.viewModel.movies[0].artistName!)
+            }
         }.onAppear{
-            viewModel
+            self.viewModel.viewDidLoad()
         }
     }
     

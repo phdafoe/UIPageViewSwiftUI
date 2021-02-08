@@ -13,8 +13,14 @@ class ContentViewModel: ObservableObject {
     
     let interactor: ContentInteractorProtocol = ContentInteractor()
     
-    func ViewDidLoad(){
-        
+    func viewDidLoad(){
+        self.interactor.fetchDataFromProvider { [weak self] (resultsData) in
+            guard self != nil else { return }
+            self?.movies = resultsData
+        } failure: { (error) in
+            print(error)
+        }
+
     }
     
 }

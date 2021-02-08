@@ -100,10 +100,10 @@
 		B44716F225D18B3F00D09295 /* Module */ = {
 			isa = PBXGroup;
 			children = (
+				B44716DC25CFDD7700D09295 /* ContentView.swift */,
 				B44716EF25D18B2400D09295 /* ContentViewModel.swift */,
 				B44716F325D18B5F00D09295 /* ContentInteractor.swift */,
 				B44716F725D18B6D00D09295 /* ContentProvider.swift */,
-				B44716DC25CFDD7700D09295 /* ContentView.swift */,
 			);
 			path = Module;
 			sourceTree = "<group>";

@@ -23,7 +23,6 @@ class ContentInteractor: ContentInteractorProtocol {
         } failure: { (error) in
             failure(error.localizedDescription)
         }
-
     }
     
 }
